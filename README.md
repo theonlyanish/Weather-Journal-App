@@ -1,8 +1,7 @@
 # Weather Journal App
-Udacity - Project 3<br>
 HTML, CSS, JavaScript, Node.js, Express.js, API
 
-Live preview : [HERE] (https://fend-p3-weather-app.herokuapp.com/)
+
 
 ## Project requirements
 
