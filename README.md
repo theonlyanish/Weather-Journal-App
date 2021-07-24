@@ -37,6 +37,4 @@ OPENWEATHER_APP_ID=your OpenWeather App ID
 * Initiate the local server; terminal command line - `node server.js`.
 * Initiate the application - http://localhost:3000/.
 
-## 5. Live View
 
-* https://weatherjournal.herokuapp.com/
