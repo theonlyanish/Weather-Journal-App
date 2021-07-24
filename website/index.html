@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8" />
+        <title>Weather Journal App</title>
+        <meta name="Weather Journal App" content="An intelligent app to generate your weather journal." />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="images/favicon.ico">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <!-- Landing Page Container Wrapper -->
+
+        <div class="landing-container-wrapper">
+
+
+            <!-- Header -->
+
+            <header>
+
+
+                <!-- Logo Container -->
+
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                </div>
+
+            </header>
+
+
+            <!-- Weather Journal Section -->
+
+            <section class="journal">
+                
+                <h1>My Weather Journal</h1>
+
+
+                <!-- Output Wrapper -->
+
+                <div id="output-wrapper">
+
+                    <table>
+
+                        <tbody>
+
+                            <tr>
+                                <td><i class="material-icons">update</i></td>
+                                <td><span id="date"></span></td>
+                            </tr>
+
+                            <tr>
+                                <td><i class="material-icons">place</i></td>
+                                <td><span class="location"></span></td>
+                            </tr>
+
+                            <tr>
+                                <td><i class="material-icons">flare</i></td>
+                                <td><span id="temp"></span></td>
+                            </tr>
+
+                            <tr>
+                                <td><i class="material-icons">cloud</i></td>
+                                <td><span class="cloud-percentage"></span> 
+                                    <span class="cloud-status"></span>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><i class="material-icons">fast_forward</i></td>
+                                <td><span class="wind"></span></td>
+                            </tr>
+
+                            <tr>
+                                <td><i class="material-icons">visibility</i></td>
+                                <td><span class="visibility"></span></td>
+                            </tr>
+
+                            <tr>
+                                <td><i class="material-icons">waves</i></td>
+                                <td><span class="humidity"></span></td>
+                            </tr>
+
+                            <tr>
+                                <td><i class="material-icons">favorite_border</i></td>
+                                <td><span id="content"></span></td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </section>
+
+
+            <!-- Journal Widget -->
+
+            <aside class="input-form">
+
+
+                <!-- Form Title -->
+
+                <div class="form-title">
+
+                    <h3>Weather Journal</h3>
+
+                </div>
+
+
+                <!-- Input Wrapper -->
+
+                <div class="input-wrapper">
+
+
+                    <!-- Input Field - Location -->
+
+                    <input type="text" name="location" id="location" placeholder="location">
+
+
+                    <!-- Input Fields - Feelings -->
+
+                    <div class="radio-inputs-wrapper">
+
+
+                        <!-- Grateful -->
+
+                        <div class="radio-input-wrapper">
+
+                            <input type="radio" name="feeling" id="feelings" value="grateful" checked><label for="grateful">grateful</label>
+
+                        </div>
+
+
+                        <!-- Optimistic -->
+
+                        <div class="radio-input-wrapper">
+
+                            <input type="radio" name="feeling" id="feelings" value="optimistic"><label for="optimistic">optimistic</label>
+
+                        </div>
+
+
+                        <!-- Peaceful -->
+
+                        <div class="radio-input-wrapper">
+
+                            <input type="radio" name="feeling" id="feelings" value="peaceful"><label for="peaceful">peaceful</label>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Button - Journal Generator -->
+
+                    <button id="generate" type="submit">Generate</button>
+
+
+                    <!-- Form Description -->
+
+                    <div id="form-description">* Key in location/feeling to generate your weather journal.</div>
+
+                </div>
+
+            </aside>
+
+        </div>
+
+
+        <!-- Footer -->
+
+        <footer>
+
+            <div class="footer-wrapper">
+
+
+                <!-- Copyright -->
+
+                <div class="footer-copyright">
+
+                    <p>Ⓒ <span class="year"></span> 
+                        <a href="index.html">Weather Journal App</a>
+                    <p>
+
+                </div>
+
+
+                <!-- Weather Data Credit -->
+
+                <div class="footer-credit">
+
+                    <p>Weather Data by
+                        <a href="https://openweathermap.org/" rel="noopener" target="_blank">OpenWeather</a>
+                    <p>
+
+                </div>
+
+
+
+            <!-- Close Button -->
+
+            <button class="buttons close-button" name="close-button" onclick="closeButton()">
+
+                <i class="material-icons">close</i>
+
+            </button>
+
+        </footer>
+
+
+        <!-- Link to app.js File -->
+
+        <script src="js/app.js"></script>
+
+    </body>
+
+</html>
