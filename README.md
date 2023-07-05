@@ -1,6 +1,6 @@
 # Udacity Front End Nanodegree - Weather Journal App Project
 
-This weather journal app project is submitted to [Udacity](https://www.udacity.com/ "Udacity") for reviewing purposes.
+This weather journal app project is submitted to [Udacity](https://www.udacity.com/ "Udacity") for reviewing purposes
 
 ## 1. Project Description
 
